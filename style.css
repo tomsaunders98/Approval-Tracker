@@ -1,0 +1,99 @@
+@media only screen and (max-width: 900px) {
+  .title {
+    font-size: 1.5em !important;
+    display: none;
+  }
+  .datefig {
+    font-size: medium !important;
+  }
+  .type_select {
+    font-size: medium !important;
+  }
+}
+
+.type_select {
+  width: 50%;
+  z-index: 1;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 5px;
+  padding: 5px 5px;
+  font-family: "Bitter", serif;
+  font-size: xx-large;
+  font-weight: 900;
+  display: inline-block;
+  text-align: left;
+}
+
+#focusLine {
+  fill: none;
+  stroke: #cdccce;
+  stroke-width: 0.5px;
+}
+
+svg text {
+  font-family: "Bitter", serif;
+}
+
+.alts {
+  text-decoration: none;
+  color: #3759b7;
+}
+
+.alts:hover {
+  color: #e33a11;
+}
+
+.active {
+  color: #e33a11 !important;
+  text-decoration: underline !important;
+}
+
+.text_approve {
+  fill: #e35d3b;
+  font-weight: 600;
+}
+
+.text_disprove {
+  fill: #5c909d;
+  font-weight: 600;
+}
+.title {
+  width: 100%;
+  font-family: "Bitter", serif;
+  font-size: 3em;
+  font-weight: 900;
+  display: inline-block;
+  text-align: center;
+}
+.main {
+  width: 100%;
+}
+.datefig {
+  display: inline-block;
+  width: 45%;
+  font-family: "Bitter", serif;
+  font-size: xx-large;
+  font-weight: 900;
+  text-align: right;
+  color: #e33a11;
+}
+.ibag {
+  color: #e33a11;
+}
+.head {
+  width: 100%;
+}
+body {
+  font-family: "Bitter", serif;
+}
+.desc {
+  color: #7c7a7a;
+}
+.desc a {
+  color: #7c7a7a;
+  text-decoration: none;
+}
+.desc a:hover {
+  color: #e33a11;
+  text-decoration: underline;
+}
