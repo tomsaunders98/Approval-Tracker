@@ -4,13 +4,25 @@
     display: none;
   }
   .datefig {
-    font-size: medium !important;
+    font-size: 1em !important;
   }
   .type_select {
-    font-size: medium !important;
+    font-size: 0.7em !important;
+  }
+  .desc {
+    font-size: 0.4em !important;
   }
 }
 
+::selection {
+  background-color: #e33a11;
+  color: white;
+}
+
+::-moz-selection {
+  background-color: #e33a11;
+  color: white;
+}
 .type_select {
   width: 50%;
   z-index: 1;
@@ -51,11 +63,13 @@ svg text {
 .text_approve {
   fill: #e35d3b;
   font-weight: 600;
+  z-index: 100;
 }
 
 .text_disprove {
   fill: #5c909d;
   font-weight: 600;
+  z-index: 100;
 }
 .title {
   width: 100%;
@@ -85,9 +99,11 @@ svg text {
 }
 body {
   font-family: "Bitter", serif;
+  cursor: crosshair;
 }
 .desc {
   color: #7c7a7a;
+  font-size: 1em;
 }
 .desc a {
   color: #7c7a7a;
